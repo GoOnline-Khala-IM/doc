@@ -1,0 +1,8 @@
+@startuml "用户上线"
+start
+note left: 这里考虑需要拉取离线消息的场景
+:获取最新一条消息的id;
+:获取本地最新一条消息的id;
+
+stop
+@enduml
